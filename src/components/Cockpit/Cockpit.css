@@ -1,0 +1,43 @@
+.red {
+    color: red;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .Cockpit-link {
+    color: #61dafb;
+  }
+  .Cockpit-logo {
+    animation: Cockpit-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .Cockpit button {
+    background-color: green;
+    color: white;
+    font: inherit;
+    padding: 8px;
+    border: 1px solid blue;
+    cursor: pointer
+  }
+  .Cockpit button:hover{
+    background-color: greenyellow;
+    color: black;
+  }
+  .Cockpit button.Red {
+    background-color: red;
+  }
+  
+  .Cockpit button.Red:hover {
+    background-color: salmon;
+    color: black;
+  }
+
+  @keyframes Cockpit-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
